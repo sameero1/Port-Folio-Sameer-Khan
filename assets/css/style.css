@@ -261,15 +261,18 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-bottom: 20rem;
 }
 
 #hero h1 {
   margin: 0 0 30px 0;
   font-size: 60px;
   font-weight: 700;
-  line-height: 15px;
+  line-height: 30px;
   color: #fff;
-  margin-right: 50rem;
+  margin-right: 15rem;
+  /* margin-bottom: 80px; */
+
 }
 
 /* #hero h1::first-letter {
@@ -303,7 +306,7 @@ h6 {
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
-    line-height: 15px;
+    /* line-height: 15px; */
   }
 
   #hero h2 {
